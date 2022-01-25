@@ -1,0 +1,43 @@
+body {
+    background-color: #24353f;
+    font-family     : sans-serif;
+}
+
+.shadoow {
+    box-shadow: -5px 2px 54px -9px rgb(0 0 0);
+}
+
+.btn-outline {
+    background-color: transparent;
+    color           : #17a2b8;
+    border-color    : #17a2b8;
+}
+
+.btn-outline:hover {
+    background-color: #17a2b8;
+    color           : #fff;
+}
+
+h1 {
+    color: #17a2b8;
+}
+
+input::placeholder {
+    color: rgb(182, 182, 182) !important;
+}
+
+input:focus {
+    box-shadow: none !important;
+}
+
+.form-div a {
+    text-decoration: none;
+}
+
+.form-div a:hover {
+    text-decoration: underline;
+}
+
+.text-danger{
+    display: none;
+}

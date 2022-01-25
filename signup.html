@@ -1,0 +1,33 @@
+<html>
+
+<head>
+    <title>Login</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="container d-flex justify-content-center align-items-center my-5">
+        <div class="form-div shadoow p-5 text-center w-75 m-auto">
+            <h1>Smart Login System </h1>
+            <input type="text" class="form-control my-3 bg-transparent text-white" placeholder="Enter your name" id="nameSignUpInput">
+            <p id="nameAlert" class="text-danger my-3">name shouldn't contain any spaces</p>
+            <input type="text" class="form-control my-3 bg-transparent text-white" placeholder="Enter your email" id="emailSignUpInput">
+            <p id="emailAlert" class="text-danger my-3">Enter valid email</p>
+            <input type="password" class="form-control my-3 bg-transparent text-white" placeholder="Enter password" id="passwordSignUpInput">
+            <p id="alert" class="text-danger my-3">All inputs are required</p>
+            <button id="signUpBtn"class="btn btn-outline w-100 my-3">Sign Up</button>
+
+            <p class="text-white">
+                You have an account?
+                <a class="text-white" href="index.html">Sign In</a>
+            </p>
+        </div>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
